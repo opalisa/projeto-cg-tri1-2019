@@ -286,4 +286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cef936fba3102254888400dbd5f5fc9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedFactor: 1
+  SpeedFactor: 10
+  LimitTop: 4
+  LimitBottom: -4
+  LimitLeft: -8
+  LimitRight: 8

@@ -14,8 +14,11 @@ public class Simplemove : MonoBehaviour
 
     void Update()
     {
+        float horizontalInput = Input.GetAxisRaw("Horizontal"); // variavel terá um valor de -1 até 1. o zero significa que não está apertando
+        
+        
         float So = transform.position.x;
-        float S = So * SpeedFactor;
-        transform.position = new Vector3(S + 0.1f, transform.position.y, transform.position.z);
+        float S = So + horizontalInput * SpeedFactor * Time.deltaTime;
+        transform.position = new Vector3(S, transform.position.y, transform.position.z);
     }
 }

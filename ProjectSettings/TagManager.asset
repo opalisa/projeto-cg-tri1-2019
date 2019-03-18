@@ -14,11 +14,11 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemies
+  - Collectibles
+  - Platfforms
+  - Camera
   - 
   - 
   - 

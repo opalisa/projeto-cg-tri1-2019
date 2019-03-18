@@ -12,7 +12,7 @@ public class SceneManager : MonoBehaviour
    private Transform Tape = null;
 
     void Awake(){
-        Assert.IsNotNull(Tape)
+        Assert.IsNotNull(Tape);
     }
 
     void Start()

@@ -2367,6 +2367,7 @@ GameObject:
   - component: {fileID: 1616156033}
   - component: {fileID: 1616156035}
   - component: {fileID: 1616156034}
+  - component: {fileID: 1616156036}
   m_Layer: 0
   m_Name: passara
   m_TagString: Untagged
@@ -2490,6 +2491,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1616156036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616156030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d80e6dd21a9d6b478a99e15569a887f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3560946380314460095
 PrefabInstance:
   m_ObjectHideFlags: 0

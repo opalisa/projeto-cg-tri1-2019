@@ -159,6 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 380491331}
   - component: {fileID: 380491330}
+  - component: {fileID: 380491333}
   - component: {fileID: 380491332}
   m_Layer: 0
   m_Name: Managers
@@ -209,6 +210,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinParticles: {fileID: 5463581860670385680, guid: ae59ad9361b3c184bb170fd00b316a18,
     type: 3}
+--- !u!114 &380491333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380491329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22369e28a3c661d408b16d4d5912c8ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSFX:
+    coinPickup: {fileID: 8300000, guid: b2d68a6c78050694fbc5aa519ece8541, type: 3}
 --- !u!1 &479964688
 GameObject:
   m_ObjectHideFlags: 0
